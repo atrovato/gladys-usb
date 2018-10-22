@@ -1,7 +1,9 @@
 const install = require('./lib/install.js');
+const exec = require('./lib/exec.js');
 
-module.exports = function() {
+module.exports = function () {
   return {
-    install : install
+    install: install,
+    exec: exec
   };
 };
